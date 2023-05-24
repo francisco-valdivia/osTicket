@@ -4,7 +4,7 @@ $info=($_POST && $errors)?Format::htmlchars($_POST):array('prefix'=>'ost_','dbho
 ?>
 <div id="main" class="step2">
     <h1><?php echo __('osTicket Basic Installation'); ?></h1>
-        <p><?php echo __('Please fill out the information below to continue your osTicket installation. All fields are required.');?></p>
+        <p><?php echo __('Por favor fill out the information below to continue your osTicket installation. All fields are required.');?></p>
             <font class="error"><strong><?php echo $errors['err']; ?></strong></font>
             <form action="install.php" method="post" id="install">
                 <input type="hidden" name="s" value="install">
